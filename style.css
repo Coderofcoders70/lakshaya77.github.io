@@ -9,8 +9,8 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-     --bg-color: rgb(12, 34, 12);
-     --second-bg-color: rgb(56, 99, 56);
+     --bg-color: rgb(54, 109, 54);
+     --second-bg-color: rgb(71, 116, 71);
      --text-color: black;
      --main-color: black;
 }
@@ -28,7 +28,7 @@ body{
      left: 0;
      width: 100%;
      padding: 1rem 9%;
-     background: rgb(16, 59, 16);
+     background: rgb(22, 43, 22);
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -41,7 +41,7 @@ body{
  }
  .navbar a{
      font-size: 1.7rem;
-     color: rgb(51, 126, 51);
+     color: rgb(32, 65, 32);
      font-weight: 500;
      margin-left: 3.5rem;
      transition: .3s;
@@ -144,7 +144,7 @@ section{
     border: 2px solid  rgb(21, 44, 21);
     border-radius: 50%;
     font-size: 20px;
-    color: rgb(21, 44, 21);
+    color: rgb(26, 41, 26);
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -304,7 +304,7 @@ section{
 .skills{
      min-height: auto;
      padding-bottom: 7rem;
-     background: #234223;
+     background: #315531;
  }
 .skills .skills-row{
 display: flex;
@@ -320,7 +320,7 @@ margin: 0 0 1rem;
 }
 .skills-box .skills-content{
 position: relative;
-border: .2rem solid rgb(15, 36, 15);
+border: .2rem solid rgb(23, 43, 23);
 border-radius: .6rem;
 padding: .5rem 1.5rem;
 z-index: 1;
@@ -349,7 +349,7 @@ display: flex;
 justify-content: space-between;
 }
 .skills-content .progress h3 span{
-color: rgb(15, 43, 15);
+color: rgb(14, 27, 14);
 }    
 .skills-content .progress .bar{
 border-radius: .7rem;
@@ -390,97 +390,31 @@ width: 80%;
 .skills-col:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
 width: 95%;
 } 
-.contact{
-    min-height: auto;
-    padding-bottom: 7rem;
+.btn.btn2{
+    display: inline-block;
+    background: #234223;
 }
 .contact form{
-    max-width: 70rem;
-    margin: 0 auto;
-    text-align: center;
-}
-.contact form .input-box{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact form .input-box .input-field{
-    position: relative;
-    width: 49%;
-    margin: .8rem 0;
-}    
-.contact form .input-box .input-field input,
-.contact form .text-areafield textarea{
     width: 100%;
-    height: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--bg-color);
-    background: transparent;
-    border-radius: .6rem;
-    border: .2rem solid var(--bg-color);
 }
-.contact form .input-box .input-field input::placeholder,
-.contact form .text-areafield textarea::placeholder{
-    color: var(--bg-color);
-}    
-.contact form .focus{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #a0161657;
-    border-radius: .6rem;
-    z-index: -1;
-    transition: .5s;
-}
-.contact form .input-box .input-field input:focus~.focus,
-.contact form .input-box .input-field input:valid~.focus,
-.contact form .text-areafield textarea:focus~.focus,
-.contact form .text-areafield textarea:valid~.focus{
-     width: 100%;
-}
-.contact form .text-areafield{
-    position: relative;
-    margin: .8rem 0 2.7rem;
-    display: flex;
-}
-.contact form .text-areafield textarea{
-    resize: none;
-}
-.contact form .btn-box.btns .btn{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    width: 150px;
-    height: 100%;
-    font-size: 26px;
-    background: var(--second-bg-color);
-    border: 2px solid rgb(21, 44, 21);
-    border-radius: 8px;
-    color: rgb(21, 44, 21);
-    text-decoration: none;
-    font-weight: 300;
-    letter-spacing: 1px;
-    z-index: 1;
-    overflow: hidden;
-}
-.contact form .btn-box.btns .btn::before{ 
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background:  rgb(30, 61, 30);
-    z-index: -1;
-    transition: .5s;
- }
- .contact form .btn-box.btns .btn:hover::before{
+form input, form textarea{
     width: 100%;
- }
+    border: 0;
+    outline: none;
+    background: #234223;
+    padding: 15px;
+    margin: 15px 0;
+    color: #0a0a0a;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 .footer{
 display: flex;
 justify-content: center;
@@ -641,4 +575,10 @@ html{
         font-size: 3rem;
         text-align: center;
     } 
+}
+#msg{
+    color: #060a06;
+    margin-top: 40px;
+    font-size: 2rem;
+    display: block;
 }
