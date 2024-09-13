@@ -61,7 +61,7 @@ section{
 }
 .home{
      display: flex; 
-     background: url('a.png') no-repeat;
+     background: url('b.png');
      background-size: cover;
      background-position: center;
      height: 10vh;
