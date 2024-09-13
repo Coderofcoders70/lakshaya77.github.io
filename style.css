@@ -10,7 +10,7 @@
 }
 :root{
      --bg-color: rgb(54, 109, 54);
-     --second-bg-color: rgb(71, 116, 71);
+     --second-bg-color: rgb(135, 214, 135);
      --text-color: black;
      --main-color: black;
 }
@@ -36,7 +36,7 @@ body{
  }
  .logo{
      font-size: 5rem;
-     color: var(--second-bg-color);
+     color: darkgreen;
      font-weight: 300;
  }
  .navbar a{
@@ -207,7 +207,7 @@ section{
 }
 .about-content{
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
 }
 .img-about .cirle-spin{
     position: absolute;
@@ -244,9 +244,6 @@ section{
     flex-wrap: wrap;
     gap: 5rem;
 }
-.education-row .education-col{
-    flex: 1 1 40rem;
-}
 .education-col .education-box{
     border-left: .2rem solid var(--bg-color);
 }
@@ -279,7 +276,7 @@ section{
     left: 0;
     width: 0;
     height: 100%;
-    background: #a7020270;
+    background: #a0050598;
     z-index: -1;
     transition: .5s;
 }
@@ -287,8 +284,8 @@ section{
     width: 100%;
 }
 .education-content .content .year{
-    font-size: 1.6rem;
-    color: var(--bg-color);
+    font-size: 1.9rem;
+    color: rgb(46, 73, 5)
     padding-bottom: .5rem;
 }
 .education-content .content .year i{
@@ -304,7 +301,7 @@ section{
 .skills{
      min-height: auto;
      padding-bottom: 7rem;
-     background: #315531;
+     background:  #83cf83;
  }
 .skills .skills-row{
 display: flex;
@@ -333,7 +330,7 @@ top: 0;
 left: 0;
 height: 100%;
 width: 0;
-background: #a0161657;
+background: #a0050598;
 z-index: -1;
 transition: .5s;
 }
@@ -401,19 +398,22 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #234223;
+    background: #6aaf6a;
     padding: 15px;
     margin: 15px 0;
-    color: #0a0a0a;
+    color: #070000;
     font-size: 18px;
     border-radius: 6px;
 }
 form .btn2{
     padding: 14px 60px;
-    border-radius: 10px;
+    border-radius: 40px;
     font-size: 18px;
     margin-top: 20px;
-    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #074607;
+    color: #84c784;
 }
 .footer{
 display: flex;
