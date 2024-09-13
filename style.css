@@ -61,7 +61,7 @@ section{
 }
 .home{
      display: flex; 
-     background: url('b.png');
+     background: url('b.png') no-repeat;
      background-size: cover;
      background-position: center;
      height: 10vh;
@@ -302,7 +302,7 @@ section{
 .skills{
      min-height: auto;
      padding-bottom: 7rem;
-     background: url(b.png);
+     background: url(b.png) no-repeat;
  }
 .skills .skills-row{
 display: flex;
@@ -393,7 +393,7 @@ width: 95%;
     background: #234223;
 }
 .contact{
-    background: url(b.png);
+    background: url(b.png) no-repeat;
 }
 .contact form{
     width: 100%;
