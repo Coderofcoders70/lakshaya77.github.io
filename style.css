@@ -219,8 +219,8 @@ section{
     border-radius: 50%;
     border-top: .2rem solid rgb(56, 99, 56);
     border-bottom: .2rem solid rgb(56, 99, 56);
-    border-left: .2rem solid #033103;
-    border-right: .2rem solid #033103;
+    border-left: .2rem solid #65b865;
+    border-right: .2rem solid #6dbd6d;
     animation: aboutSpinner 8s linear infinite;
 }
 @keyframes aboutSpinner{
