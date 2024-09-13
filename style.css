@@ -475,7 +475,7 @@ section{
  padding: 2rem 4%;
 }
 }
-@media (max-width: 706px){
+@media (max-width: 806px){
 .header{
  background-color: rgb(54, 119, 56);
 }
