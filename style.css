@@ -175,6 +175,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url(b.png);
     gap: 2rem;
     padding-bottom: 6rem;
 }
@@ -301,7 +302,7 @@ section{
 .skills{
      min-height: auto;
      padding-bottom: 7rem;
-     background:  #83cf83;
+     background: url(b.png);
  }
 .skills .skills-row{
 display: flex;
@@ -390,6 +391,9 @@ width: 95%;
 .btn.btn2{
     display: inline-block;
     background: #234223;
+}
+.contact{
+    background: url(b.png);
 }
 .contact form{
     width: 100%;
