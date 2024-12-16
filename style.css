@@ -12,7 +12,7 @@
 :root{
      --bg-color: rgb(5, 5, 5);
      --second-bg-color: rgba(22, 27, 27, 0.848);
-     --text-color: rgb(143, 137, 137);
+     --text-color: rgb(196, 187, 187);
      --main-color: black;
 }
 html{
@@ -37,7 +37,7 @@ body{
  }
  .logo{
      font-size: 5rem;
-     color: rgb(35, 111, 35);
+     color: rgb(34, 135, 34);
      font-weight: 300;
  }
  .navbar a{
@@ -52,7 +52,7 @@ body{
  }
  #menu-icon{
      font-size: 3.6rem;
-     color: #0c240c;
+     color: #249224;
      cursor: pointer;
      display: none;
  }
@@ -109,7 +109,7 @@ section{
  }
  .btn-box a:nth-child(1){ 
     background: transparent;
-    color:  rgb(55, 149, 55);
+    color:  rgb(48, 163, 48);
  }
  .btn-box a::before{ 
     content: '';
@@ -265,7 +265,7 @@ section{
 .education-content .content{
     position: relative;
     padding: 1.5rem;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--main-color);
     border-radius: .6rem;
     margin-bottom: 2rem;
     overflow: hidden;
