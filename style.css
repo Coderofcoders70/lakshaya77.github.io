@@ -6,12 +6,13 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
+    font-style: var(--text-color);
     font-family: 'Poppins', sans-serif;
 }
 :root{
      --bg-color: rgb(5, 5, 5);
      --second-bg-color: rgba(22, 27, 27, 0.848);
-     --text-color: black;
+     --text-color: rgb(143, 137, 137);
      --main-color: black;
 }
 html{
@@ -485,7 +486,7 @@ section{
 }
 @media (max-width: 915px){
 .header{
- background-color: rgb(85, 146, 87);
+ background-color: var(--bg-color);
 }
 #menu-icon{
  display: block;
