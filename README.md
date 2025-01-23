@@ -1,1 +1,1 @@
-# lakshaya77.github.io
+I am a passionate and detail-oriented developer with a strong foundation in creating efficient, scalable, and user-friendly applications. With expertise in backend development, database management, and modern web technologies, I craft solutions that seamlessly blend functionality and design. Always eager to learn and innovate, I thrive on turning ideas into impactful digital experiences.
