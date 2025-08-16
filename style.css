@@ -492,6 +492,11 @@ section{
  display: block;
 }
 .navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+ display: block;
  position: absolute;
  top: 100%;
  left: -100%;
@@ -590,4 +595,5 @@ html{
     font-size: 2rem;
     display: block;
 }
+
 
